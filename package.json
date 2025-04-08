@@ -1,0 +1,25 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node generate-sprint-report-auto.js",
+    "start-ordered": "node generate-sprint-report-ordered-env.js"
+  },
+  "keywords": [
+    "jira",
+    "api",
+    "review"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Project for interacting with Jira API",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.4.0",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^148.0.0",
+    "jira-client": "^8.2.2"
+  }
+}
